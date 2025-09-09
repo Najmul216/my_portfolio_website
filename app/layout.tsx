@@ -8,7 +8,7 @@ const font = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Md.Nazmul Hasan Chowdhury",
+  title: "Md. Nazmul Hasan Chowdhury",
   description: "Portfolio website create with Next.js 15",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased bg-[#0c0c4b]`}
+        className={`${font.className} antialiased bg-[#09093f]`}
       >
         {children}
       </body>
