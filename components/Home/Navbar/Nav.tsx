@@ -1,12 +1,28 @@
+'use client';
+
 import { NavLinks } from '@/constant/constant';
 import Link from 'next/link';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { TbDevicesCode } from "react-icons/tb";
 import { MdDownload } from "react-icons/md";
+import { RiMenuFold3Fill } from "react-icons/ri";
 
 const Nav = () => {
+
+  const [navBg, setNavBg] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) setNavBg(true);
+      if (window.scrollY < 90) setNavBg(false);
+    };
+    window.addEventListener("scroll", handler);
+
+    return () => window.removeEventListener("scroll", handler);
+  }, []);
+
   return (
-    <div className='transition-all duration-200 h-[12vh] z-[10000] fixed w-full'>
+<div className={`transition-all ${navBg ? "bg-[#0f142ed9] shadow-md" : "fixed"} duration-200 h-[12vh] z-[10000] fixed w-full`}>
       <div className='flex items-center h-full justify-between w-[90%] mx-auto'>
         {/* Logo*/}
         <div className='flex items-center space-x-2'>
@@ -31,6 +47,8 @@ const Nav = () => {
             <MdDownload className='w-5 h-5' />
             <span>Download CV</span>
           </button>
+          {/* Burger Menu */}
+          <RiMenuFold3Fill className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
         </div>
       </div>
     </div>
