@@ -7,7 +7,12 @@ import { TbDevicesCode } from "react-icons/tb";
 import { MdDownload } from "react-icons/md";
 import { RiMenuFold3Fill } from "react-icons/ri";
 
-const Nav = () => {
+
+type Props = {
+  openNav: () => void;
+}
+
+const Nav = ({openNav} : Props) => {
 
   const [navBg, setNavBg] = useState(false);
 
@@ -48,7 +53,7 @@ const Nav = () => {
             <span>Download CV</span>
           </button>
           {/* Burger Menu */}
-          <RiMenuFold3Fill className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
+          <RiMenuFold3Fill onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
         </div>
       </div>
     </div>
