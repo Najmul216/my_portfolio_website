@@ -13,15 +13,15 @@ const Hero = () => {
             <span className='text-cyan-300'> Conversion web analytics.</span>
           </h1>
           <h2 className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center'>
-            Hi, This is Nazmul, A Passionate
+            This is <span className='text-cyan-300 pl-2'>Nazmul</span>, A Passionate -
             <span className='text-cyan-300 font-bold'>
             <Typewriter
               options={{
                 strings: [
-                          'Full-Stack Developer',
-                          'App Developer',
-                          'Web Analytics Expert',
-                          'Dev-Ops Engineer'
+                          'Full-Stack Developer.',
+                          'App Developer.',
+                          'Web Analytics Expert.',
+                          'Dev-Ops Engineer.'
                           ],
                 autoStart: true,
                 loop: true,
@@ -31,7 +31,7 @@ const Hero = () => {
 
               }}
             />
-            </span>.
+            </span>
           </h2>
         </div>
     </div>
