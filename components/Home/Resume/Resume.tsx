@@ -15,18 +15,21 @@ const Resume = () => {
           <div className="mt-10">
             <ResumeCard
               Icon={FaCodepen}
-              role="Full-Stack Software Engineer"
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum laudantium sapiente cumque distinctio."
+              date="2022 - Now"
+              role="Application Developer"
+              text="Suncrop Group."
             />
             <ResumeCard
               Icon={FaReact}
-              role="Frontend Developer"
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum laudantium sapiente cumque distinctio."
+              date="2017 - 2021"
+              role="Executive (Operations)"
+              text="Bengal Communications Ltd."
             />
             <ResumeCard
               Icon={BsDatabase}
-              role="Backend Developer"
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum laudantium sapiente cumque distinctio."
+              date="2013 - 2015"
+              role="Jr. Executive (Customer Support)"
+              text="BanglaLion Communication Ltd."
             />
           </div>
         </div>
@@ -52,7 +55,7 @@ const Resume = () => {
               Icon={FaBookOpen}
               role="Diploma in Computer Technology "
               date="2005 - 2009"
-              text="Feni Polytechnical Institute"
+              text="Feni Polytechnic Institute"
             />
             <ResumeCard
               Icon={FaBookOpen}
