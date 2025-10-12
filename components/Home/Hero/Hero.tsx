@@ -17,12 +17,21 @@ const Hero = () => {
           width={180}
           height={180}
           className="rounded-full border-8 border-[#0c0c48aa]"
+          data-aos="fade-up"
         />
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
+        >
           Developing web products, apps & <br />
           <span className="text-cyan-300"> Conversion web analytics.</span>
         </h1>
-        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+        <h2
+          data-aos="fade-up"
+          data-aos-delay="400"
+          className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center"
+        >
           This is <span className="text-cyan-300 pl-2">Nazmul</span>, A
           Passionate -
           <span className="text-cyan-300 font-bold">
@@ -44,6 +53,8 @@ const Hero = () => {
           </span>
         </h2>
         <button
+          data-aos="fade-up"
+          data-aos-delay="600"
           className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300
           cursor-pointer rounded-full text-lg font-medium"
         >
