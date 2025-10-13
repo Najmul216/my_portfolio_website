@@ -25,7 +25,9 @@ const Hero = () => {
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
         >
           Developing web products, apps & <br />
-          <span className="text-cyan-300"> Conversion web analytics.</span>
+          <span className="text-cyan-300">
+            Web analytics & Conversion Tracking.
+          </span>
         </h1>
         <h2
           data-aos="fade-up"
@@ -38,7 +40,7 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Full-Stack Developer.",
+                  "Full-Stack Website Developer.",
                   "App Developer.",
                   "Web Analytics Expert.",
                   "Dev-Ops Engineer.",
