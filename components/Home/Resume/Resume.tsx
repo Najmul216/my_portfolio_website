@@ -1,6 +1,6 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
-import { FaBookOpen, FaCodepen, FaReact } from "react-icons/fa";
+import { FaBookOpen, FaCodepen, FaNetworkWired, FaReact } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 
 const Resume = () => {
@@ -18,22 +18,28 @@ const Resume = () => {
             data-aos-anchor-placement="top-center"
           >
             <ResumeCard
-              Icon={FaCodepen}
+              Icon={FaReact}
               date="2022 - Now"
               role="Application Developer"
               text="Suncrop Group."
             />
             <ResumeCard
-              Icon={FaReact}
+              Icon={BsDatabase}
               date="2017 - 2021"
               role="Executive (Operations)"
               text="Bengal Communications Ltd."
             />
             <ResumeCard
-              Icon={BsDatabase}
+              Icon={FaCodepen}
               date="2013 - 2015"
               role="Jr. Executive (Customer Support)"
               text="BanglaLion Communication Ltd."
+            />
+            <ResumeCard
+              Icon={FaNetworkWired}
+              date="2010 - 2012"
+              role="IT Officer"
+              text="Padma Islami Life Insurance Ltd."
             />
           </div>
         </div>
@@ -51,7 +57,7 @@ const Resume = () => {
             <ResumeCard
               Icon={FaBookOpen}
               role="M.sc in Computer Science & Engineering "
-              date="2016 - 2017"
+              date="2016 - 2018"
               text="Daffodill International University"
             />
             <ResumeCard
@@ -68,7 +74,7 @@ const Resume = () => {
             />
             <ResumeCard
               Icon={FaBookOpen}
-              role=" S.S.C "
+              role=" Secondary School Certificate (S.S.C) "
               date="2002"
               text="Noakhali Zilla School"
             />
