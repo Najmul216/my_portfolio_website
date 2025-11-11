@@ -19,28 +19,28 @@ const Hero = () => {
           className="rounded-full border-8 border-[#0c0c48aa]"
           data-aos="fade-up"
         />
-        <h1
+        <h2
           data-aos="fade-up"
-          data-aos-delay="200"
-          className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide"
+          data-aos-delay="400"
+          className="mt-5 sm:text-4xl md:text-5xl lg:text-4xl px-2 text-center flex items-center"
         >
-          Developing web products, apps & <br />
-          <span className="text-cyan-300">
-            Web analytics & Conversion Tracking.
+          Hi, This is
+          <span className="text-cyan-300 pl-2 font-bold">
+            Md. Nazmul Hasan Chowdhury
           </span>
-        </h1>
+          ,
+        </h2>
         <h2
           data-aos="fade-up"
           data-aos-delay="400"
           className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center"
         >
-          This is <span className="text-cyan-300 pl-2">Nazmul</span>, A
-          Passionate -
+          I&apos;m a Passionate -
           <span className="text-cyan-300 font-bold">
             <Typewriter
               options={{
                 strings: [
-                  "Full-Stack Website Developer.",
+                  "Full-Stack Web Developer.",
                   "App Developer.",
                   "Web Analytics Expert.",
                   "Dev-Ops Engineer.",
@@ -54,6 +54,17 @@ const Hero = () => {
             />
           </span>
         </h2>
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="sm:text-4xl md:text-4xl lg:text-3xl mt-6 text-center font-bold tracking-wide"
+        >
+          Developing <span className="text-cyan-300">web products, apps &</span>{" "}
+          <br />
+          <span className="text-cyan-300">
+            Web analytics & Conversion Tracking.
+          </span>
+        </h1>
         <button
           data-aos="fade-up"
           data-aos-delay="600"
