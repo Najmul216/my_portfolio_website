@@ -57,13 +57,13 @@ const Hero = () => {
         <h1
           data-aos="fade-up"
           data-aos-delay="200"
-          className="sm:text-4xl md:text-4xl lg:text-3xl mt-6 text-center font-bold tracking-wide"
+          className="sm:text-3xl md:text-2xl lg:text-xl max-w-[45rem] mt-6 text-center font-bold tracking-wide"
         >
-          Developing <span className="text-cyan-300">web products, apps &</span>{" "}
-          <br />
-          <span className="text-cyan-300">
-            Web analytics & Conversion Tracking.
-          </span>
+          I&apos;m an MSc Engineer in Computer Science and Engineering with a
+          focus on research and innovation in computational intelligence and
+          software systems. My work explores how emerging technologies — such as
+          Web development, web analytics & convertion tracking, and Dev-ops
+          engineering — can be leveraged to solve real-world challenges.
         </h1>
         <button
           data-aos="fade-up"
