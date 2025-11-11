@@ -19,7 +19,7 @@ const Resume = () => {
           >
             <ResumeCard
               Icon={FaReact}
-              date="2022 - Now"
+              date="2022 - 2023"
               role="Application Developer"
               text="Suncrop Group."
             />
