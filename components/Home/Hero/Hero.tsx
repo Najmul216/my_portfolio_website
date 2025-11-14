@@ -61,7 +61,7 @@ const Hero = () => {
           I&apos;m an M.sc Engineer in Computer Science and Engineering. My work
           explores how emerging technologies — such as Web development, web
           analytics & convertion tracking, and Dev-ops engineering — can be
-          leveraged to solve real-world challenges.
+          leveraged to <br /> solve real-world challenges.
         </h1>
         <button
           data-aos="fade-up"
