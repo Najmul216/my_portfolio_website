@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   return (
     <div className="pt-16 pb-16">
-      <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
+      <h1 className="text-center text-xl md:text-2xl xl:text-3xl font-bold text-white">
         Colleborate with brand <br /> and agencies to create <br /> impactful
         results
       </h1>
@@ -13,7 +13,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/web-dev1.png"
             name="Full-Stack Web Development"
-            description="Developing Websites that are interacticve, efficient and user-friendly."
+            description="Developing Websites that are interactive, efficient and user-friendly."
           />
         </div>
         <div

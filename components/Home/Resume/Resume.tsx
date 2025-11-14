@@ -9,7 +9,7 @@ const Resume = () => {
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Work Section */}
         <div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-white">
+          <h1 className="text-xl sm:text-2xl text-center font-bold text-white">
             My Work <span className="text-cyan-300">Experiences</span>
           </h1>
           <div
@@ -45,8 +45,8 @@ const Resume = () => {
         </div>
         {/* Education Section */}
         <div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            My Educational <span className="text-cyan-300">Qualifications</span>
+          <h1 className="text-xl sm:text-2xl text-center font-bold text-white">
+            My Educational <span className="text-cyan-500">Qualifications</span>
           </h1>
           <div
             className="mt-10"
@@ -56,13 +56,13 @@ const Resume = () => {
           >
             <ResumeCard
               Icon={FaBookOpen}
-              role="M.sc in Computer Science & Engineering "
+              role="M.sc in Computer Science "
               date="2016 - 2018"
               text="Daffodill International University"
             />
             <ResumeCard
               Icon={FaBookOpen}
-              role="B.sc in Computer Science & Engineering "
+              role="B.sc in Computer Science "
               date="2012 - 2016"
               text="Northern University of Bangladesh"
             />
@@ -74,7 +74,7 @@ const Resume = () => {
             />
             <ResumeCard
               Icon={FaBookOpen}
-              role=" Secondary School Certificate (S.S.C) "
+              role=" Secondary School Certificate "
               date="2002"
               text="Noakhali Zilla School"
             />

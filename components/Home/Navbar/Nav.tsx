@@ -36,18 +36,18 @@ const Nav = ({ openNav }: Props) => {
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col">
             <TbDevicesCode className="w-6 h-6 text-black" />
           </div>
-          <h1 className="text-lg hidden sm:block md:text-2xl text-white font-bold">
+          <h1 className="text-lg hidden sm:block md:text-xl text-white font-bold">
             MD. NAZMUL HASAN CHOWDHURY
           </h1>
         </div>
         {/* navLinks */}
-        <div className="hidden lg:flex items-center space-x-10">
+        <div className="hidden lg:flex items-center space-x-6 bg-blue-800 p-4 rounded-full">
           {NavLinks.map((link) => {
             return (
               <Link
                 key={link.id}
                 href={link.url}
-                className="text-base hover:text-cyan-300 text-white font-medium transition-all duration-200"
+                className="text-base hover:text-cyan-400 text-white font-medium transition-all duration-200"
               >
                 <p>{link.label}</p>
               </Link>
@@ -58,7 +58,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4">
           {/* CV Button */}
           <button
-            className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300
+            className="px-8 py-3.5 text-sm cursor-pointer rounded-full bg-blue-800 hover:bg-blue-900 transition-all duration-300
            text-white flex items-center space-x-2"
           >
             <MdDownload className="w-5 h-5" />
