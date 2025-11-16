@@ -26,19 +26,19 @@ const Contact = () => {
           {/*Info.*/}
           <div className="mt-7">
             <div className="flex items-center space-x-3 mb-4">
-              <MdPhoneAndroid className="w-9 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">+88 01883018416</p>
+              <MdPhoneAndroid className="w-7 h-7 text-cyan-300" />
+              <p className="text-md font-bold text-gray-400">+880 1883018416</p>
             </div>
             <div className="flex items-center space-x-3 mb-4">
-              <BiEnvelope className="w-8 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">
-                hnajmul39@gmail.com
+              <BiEnvelope className="w-7 h-7 text-cyan-300" />
+              <p className="text-md font-bold text-gray-400">
+                hasan.najmul00199@gmail.com
               </p>
             </div>
             <div className="flex items-center space-x-3 mb-4">
-              <MdOutlineMapsHomeWork className="w-8 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">
-                Natore, Rajshahi, Bangladesh
+              <MdOutlineMapsHomeWork className="w-7 h-7 text-cyan-300" />
+              <p className="text-md font-bold text-gray-400">
+                Noakhali, Chittagong, Bangladesh
               </p>
             </div>
           </div>
