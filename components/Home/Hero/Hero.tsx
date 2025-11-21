@@ -16,6 +16,8 @@ const Hero = () => {
           alt="heroImage"
           width={200}
           height={200}
+          quality={90} //high quality for better appearance
+          priority={true} //image will load quickly as it's important for the hero section
           className="rounded-full border-8 border-[#0c0c48aa]"
           data-aos="fade-up"
         />
